@@ -128,6 +128,7 @@ defmodule ReactPhoenix.ServerSide do
       component: path,
       props: props
     })
+    |> IO.inspect(label: "json_call")
     |> Map.get("html")
   end
 end
