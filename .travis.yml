@@ -1,5 +1,6 @@
 language: elixir
 install:
+  - mix local.hex --force
   - mix deps.get
   - npm install
 elixir:
