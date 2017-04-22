@@ -108,7 +108,7 @@ so I won't restate everything here.
 
 Once fully set up and configured, you can do this in your controllers:
 
-```elxiir
+```elixir
 def index(conn, _params) do
   people = ["Jack", "John", "Sayid", "Sawyer"]
   html = ReactPhoenix.ServerSide.react_component(
